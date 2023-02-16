@@ -1,0 +1,108 @@
+<!DOCTYE htMl><!--HTML is case insesnitive-->
+<html><!--html is root tab-->
+<head><!--head contains pages matadata-->
+<title>Intro to HTML</title><!--title tag is used to display content on tab of the webpage-->
+
+<!--class which is used by div tag in body sectionand written under style tag of css-->
+
+<style>
+.myDiv{
+border: 5px outset red;
+background-color:lightblue;
+text-align: center;
+};
+</style>
+
+</head>
+<body><!--Body Tag is being rendered by the browser -->
+<h1> This is introduction to HTML heading</h1>
+<a href='https://www.google.co.in'> Click Me I will take you to google page</a><!--Anchor tag is used to add links to an existing content inside an html page -->
+
+<br><!--br tag is used to create linke breaks in an html page -->
+<br>
+<img src="C:\Users\INEEXTsus\OneDrive - ONEVIRTUALOFFICE\Notepad\practice.png">
+<br>
+<br>
+<b>To Display content in bold format</b>
+<br>
+<br>
+<i>To Display content in italic format</i>
+<br>
+<br>
+<u>To Display content in underlined format</b>
+<!--hr tag is used to create horizontal ruler, aften used to seperate the content -->
+<hr>This is to check hr tag </hr>
+
+<!--we can add subscript and super script in html as below -->
+<br>
+<br>
+<sub> this  </sub>is subscript
+<br>
+<br>
+<sup> this  </sup>is superscript
+
+<!--HTML allways ignores the spaces and newlines, in order to display a piece of text as it is, we use pre tag -->
+<pre>
+This is writeen
+using  
+pre tag
+</pre>
+
+<!-- below lines will be displayed in one line itself even if we entered each word in seperate line-->
+this 
+is
+written 
+without 
+pre tag
+
+<p>This is paragraph</p>
+
+<!-- Link Attributes -->
+
+<a href='C:\Users\INEEXTsus\OneDrive - OneVirtualOffice\Desktop\DesktopIcons\HV\HarryHTMLPractice\contacts.txt'>Contact Us </a> <!-- Contact us page opens in same tab -->
+
+<br>
+<br>
+<a href='C:\Users\INEEXTsus\OneDrive - OneVirtualOffice\Desktop\DesktopIcons\HV\HarryHTMLPractice\contacts.txt' target='_blank'>Contact Us </a> <!-- Contact us page opens in new tab -->
+<br>
+<br>
+<!-- We can add links to images as below -->
+<a href='C:\Users\INEEXTsus\OneDrive - OneVirtualOffice\Desktop\DesktopIcons\HV\HarryHTMLPractice\contacts.txt' target='_blank'>
+ <img src='C:\Users\INEEXTsus\OneDrive - ONEVIRTUALOFFICE\Notepad\images.jfif' width="120"></a> 
+ <br>
+<br>
+<!-- this is the class definition in the div tag,
+The <div> tag defines a division or a section in an HTML document.
+
+The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+
+The <div> tag is easily styled by using the class or id attribute.
+
+Any sort of content can be put inside the <div> tag!  -->
+
+<div class="myDiv">
+ <h2>this is the heading in div element</h2>
+ <br>
+ <br>
+ <p>this is some text in the div element</p>
+<br>
+<br>
+</div>
+
+<!-- Span:
+Definition and Usage
+The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+
+The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+
+The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.-->
+
+<h2><p>My friend has <span style ="color:blue"> blue </span> eyes.</p></h2>
+
+
+
+
+
+</body>
+
+</html>
